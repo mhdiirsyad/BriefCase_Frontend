@@ -5,9 +5,7 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --color-surface: #f9faf6;
   --color-surface-dim: #d9dad7;
-  --color-surface-bright: #f9faf6;
   --color-surface-container-lowest: #ffffff;
   --color-surface-container-low: #f3f4f0;
   --color-surface-container: #edeeea;
