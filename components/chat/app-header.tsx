@@ -66,7 +66,7 @@ export default function AppHeader() {
                         <p className="hidden text-xs text-on-surface-variant sm:block">Private assistant session</p>
                     </div>
                 </div>
-                <Link href="https://github.com/your-repo" target="_blank" className="flex items-center gap-2 rounded-full border border-outline-variant/60 bg-white/70 px-3 py-1.5 text-xs font-medium text-on-surface-variant">
+                <Link href="https://github.com/mhdiirsyad/BriefCase_Frontend" target="_blank" className="flex items-center gap-2 rounded-full border border-outline-variant/60 bg-white/70 px-3 py-1.5 text-xs font-medium text-on-surface-variant">
                     <GithubIcon className="size-3.5 text-secondary" />
                     Get the code
                 </Link>

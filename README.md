@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# BriefCase Frontend
 
-## Getting Started
+The frontend for BriefCase, a legal assistant for asking questions about Indonesian legal documents. It provides a streamed chat interface, document source references, local conversation history, and a five-question limit per conversation.
 
-First, run the development server:
+## Stack
+
+- Next.js 16 with the App Router
+- React 19 and TypeScript
+- Tailwind CSS v4
+- Zustand for browser-based chat session storage
+- React Markdown with GitHub Flavored Markdown support
+- Manrope and DM Sans typography
+
+## Requirements
+
+- Node.js 20 or newer
+- npm
+- The BriefCase backend running locally
+
+Backend repository: [github.com/mhdiirsyad/BriefCase_Backend](https://github.com/mhdiirsyad/BriefCase_Backend)
+
+## Setup
+
+From the `frontend` directory:
+
+```bash
+npm install
+```
+
+Create a `.env` file in the project root:
+
+```env
+NEXT_PUBLIC_API_URL=your-apu-url
+```
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The backend must be available at the URL configured by `NEXT_PUBLIC_API_URL`. The chat client sends requests to `POST /chat/stream` and expects Server-Sent Events for source references, response tokens, errors, and completion.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Scripts
 
-## Learn More
+```bash
+npm run dev      # Start the development server
+npm run build    # Create a production build
+npm run start    # Serve the production build
+npm run lint     # Run ESLint
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Chat Storage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Chat data is stored in the browser using Zustand and `localStorage`; no frontend database or user login is required.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Each conversation allows up to five user questions.
+- Use the new conversation action to start another session.
+- Sessions older than seven days are removed automatically.
+- Assistant responses retain their document source metadata locally.
 
-## Deploy on Vercel
+## Project Structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```text
+app/
+	(root)/chat/       Chat route
+	globals.css        Tailwind theme and design tokens
+components/chat/     Chat interface components
+components/ui/       Shared UI primitives
+lib/chat.ts          Backend SSE client
+lib/store/           Zustand chat store
+lib/type.ts          Shared frontend types
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Design System
+
+The interface follows [`DESIGN.MD`](./DESIGN.MD), including the Executive Intelligence color palette, Manrope/DM Sans typography, responsive workspace layout, frosted input dock, and restrained teal, mint, and sky accents.
