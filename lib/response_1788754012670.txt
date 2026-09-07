@@ -1,0 +1,180 @@
+event: sources
+data: "[{\"source_type\": \"local_document\", \"file_name\": \"PP Nomor 35 Tahun 2021.pdf\", \"page\": \"18\", \"total_pages\": 56, \"score\": 0.3682766258716583, \"content\": \"PRESiDEN\\nREPUBLIK INDONESI,A.\\n-18-\\n(21 Perintah dan persetujuan sebagaimana dimaksud\\npada ayat (1) dapat dibuat dalam bentuk daftar\\nPekerja/Buruh yang bersedia bekerja lembur yang\\nditandatangani oleh \\nPekerja/Buruh yang\\nbersangkutan dan Pengusaha.\\n(3...\"}, {\"source_type\": \"local_document\", \"file_name\": \"PP Nomor 35 Tahun 2021.pdf\", \"page\": \"18\", \"total_pages\": 56, \"score\": 0.2530443072319031, \"content\": \"PRESiDEN\\nREPUBLIK INDONESI,A.\\n-18-\\n(21 Perintah dan persetujuan sebagaimana dimaksud\\npada ayat (1) dapat dibuat dalam bentuk daftar\\nPekerja/Buruh yang bersedia bekerja lembur yang\\nditandatangani oleh \\nPekerja/Buruh yang\\nbersangkutan dan Pengusaha.\\n(3...\"}, {\"source_type\": \"local_document\", \"file_name\": \"PP Nomor 35 Tahun 2021.pdf\", \"page\": \"18\", \"total_pages\": 56, \"score\": 0.02716032601892948, \"content\": \"(3) Pengusaha sebagaimana dimaksud pada ayat(2) harus\\nmembuat daftar pelaksanaan kerja lembur yang\\nmemuat nama Pekerja/Buruh yang bekerja lembur\\ndan lamanya Waktu Kerja Lembur....\"}]"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: token
+data: "{\"delta\": \"\\n\\nLembur\"}"
+
+event: token
+data: "{\"delta\": \" dalam konteks Undang-Undang tentang\"}"
+
+event: token
+data: "{\"delta\": \" Pekerjaan dan Perusahaan meruj\"}"
+
+event: token
+data: "{\"delta\": \"uk pada kerja yang dilakukan selama\"}"
+
+event: token
+data: "{\"delta\": \" waktu kerja yang lebih lama darip\"}"
+
+event: token
+data: "{\"delta\": \"ada jam kerja normal. Pekerja\"}"
+
+event: token
+data: "{\"delta\": \" yang bekerja lembur harus\"}"
+
+event: token
+data: "{\"delta\": \" membayar upah kerja lembur\"}"
+
+event: token
+data: "{\"delta\": \", yang biasanya lebih tinggi dar\"}"
+
+event: token
+data: "{\"delta\": \"ipada upah kerja normal.\"}"
+
+event: token
+data: "{\"delta\": \"\"}"
+
+event: end
+data: [DONE]
+

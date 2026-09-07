@@ -4,9 +4,9 @@ import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar";
 
 export default function ChatPage() {
     return (
-        <SidebarProvider>
+        <SidebarProvider className="h-screen">
             <AppSidebar className="bg-surface-container" />
-            <SidebarInset className="">
+            <SidebarInset className="h-screen bg-surface">
                 <AppHeader />
             </SidebarInset>
         </SidebarProvider>
